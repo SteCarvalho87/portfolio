@@ -1,0 +1,21 @@
+body{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.cabecalho{
+    height: 80px;
+    background-color:#101616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho img {
+    height: 80px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+}
