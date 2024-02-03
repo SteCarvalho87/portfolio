@@ -1,21 +1,274 @@
 body{
     background-color: #1F1F1F;
     color: #fff;
+    font-family: 'KoHo';
+    font-weight: 300;
 }
 
 .cabecalho{
     height: 80px;
-    background-color:#101616;
+    padding: 0 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .cabecalho img {
-    height: 80px;
+    height: 90px;
 }
 
 .cabecalho .menu{
     display: flex;
     gap: 30px;
+}
+
+.cabecalho .menu li a{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cabecalho .menu li a:hover{
+    color: aqua;
+    border-bottom: 3px solid aqua;
+}
+
+.home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh-80px);
+}
+
+.home .img-fundo{
+    max-height: 100vh;
+}
+
+.home .intro{
+    position: absolute;
+    z-index: 1;
+    max-height: calc(100vh-80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 100px;
+    color: #1F1F1F;    
+}
+
+.home .intro .texto h1{
+    font-size: 70px;
+}
+
+.home .intro .texto span{
+    font-size: 100px;
+    color: rgb(6, 92, 92);
+}
+
+.home .intro .texto p{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.home .intro a img{
+    width: 800px;
+}
+
+.sobre-mim{
+    background-color: #292929;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-size: 60px;    
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-mim p{
+    font-size: 30px;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.habilidades .lista-habilidades{
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.habilidades .lista-habilidades li{
+    background-color: #292929;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 3px solid aqua;
+    color: aqua;
+    height: 250px;
+    width: 250px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.habilidades .lista-habilidades li img{
+    max-width: 120px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos .lista-projetos{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.projetos .lista-projetos .projeto{
+    background-color: #292929;
+    height: 800px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+.projetos .lista-projetos .projeto .card-projeto{
+    max-width: 600px;
+    opacity: .7;
+    border-radius: 30px 30px 0 0;
+}    
+
+.projetos .lista-projetos .projeto h3{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.projetos .lista-projetos .projeto p{
+    font-size: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.projetos .lista-projetos .container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+}
+
+.projetos .lista-projetos .container a img{
+    max-width: 45px;
+}
+
+.projetos .lista-projetos .container a img:hover{
+    background-color: aqua ;
+    border-radius: 40px;
+}
+
+.projetos .lista-projetos .container .tecnologias{
+    display: flex;
+    gap: 30px;
+}
+
+.projetos .lista-projetos .container .tecnologias li{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 40px;
+}
+
+.projetos .btn-repositorio-git{
+    background-color: #292929;
+    border: 0,5px solid #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    width: 40%;
+    transition: all .2s ease-in;
+}
+
+.btn-repositorio-git:hover{
+    background-color: aqua;
+    color: #1F1F1F;
+}
+
+.contatos .caixa{
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    margin: 40px 20px;
+    border-radius: 30px;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.contatos .caixa .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos .caixa .container ul li img{
+    height: 70px;
+}
+
+.contatos .caixa .container .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 50px 0 0;
+}
+
+.contatos .caixa .container .lista-contatos{
+    display: flex;
+    gap: 20px;
+}
+
+.contatos .caixa .container .lista-contatos li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1.8;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all .2s ease-in;
+}
+
+.contatos .caixa .container .lista-contatos li:hover{
+    background-color: aqua;
+    color: #1F1F1F;
+}
+
+footer{
+    font-size: 20px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
 }
