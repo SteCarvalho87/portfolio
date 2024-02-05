@@ -25,7 +25,7 @@ body{
 .cabecalho .menu li a{
     padding: 30px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .cabecalho .menu li a:hover{
@@ -40,7 +40,8 @@ body{
 }
 
 .home .img-fundo{
-    max-height: 100vh;
+    max-height: 800px;
+    object-fit: cover;
 }
 
 .home .intro{
@@ -56,11 +57,11 @@ body{
 }
 
 .home .intro .texto h1{
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .home .intro .texto span{
-    font-size: 100px;
+    font-size: 90px;
     color: rgb(6, 92, 92);
 }
 
@@ -70,7 +71,7 @@ body{
 }
 
 .home .intro a img{
-    width: 800px;
+    width: 650px;
 }
 
 .sobre-mim{
@@ -85,13 +86,13 @@ body{
 }
 
 .titulo{
-    font-size: 60px;    
+    font-size: 50px;    
     display: flex;
     justify-content: center;
 }
 
 .sobre-mim p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .habilidades{
@@ -117,7 +118,7 @@ body{
     color: aqua;
     height: 250px;
     width: 250px;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
