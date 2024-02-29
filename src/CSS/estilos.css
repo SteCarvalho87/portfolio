@@ -49,6 +49,7 @@ body{
     z-index: 1;
     max-height: calc(100vh-80px);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
@@ -106,6 +107,7 @@ body{
 
 .habilidades .lista-habilidades{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     font-weight: 700;
     align-items: center;
@@ -138,6 +140,7 @@ body{
 
 .projetos .lista-projetos{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 50px;
     gap: 50px;
@@ -246,6 +249,7 @@ body{
 
 .contatos .caixa .container .lista-contatos{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
