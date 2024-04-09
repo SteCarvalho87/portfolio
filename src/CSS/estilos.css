@@ -1,12 +1,12 @@
 body{
-    background-color: #1F1F1F;
+    background-color: #171a19;
     color: #fff;
-    font-family: 'KoHo';
+    font-family: 'KoHo', sans-serif;
     font-weight: 300;
 }
 
 .cabecalho{
-    height: 80px;
+    height: 65px;
     padding: 0 1%;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@ body{
 }
 
 .cabecalho img {
-    height: 90px;
+    height: 130px;
 }
 
 .cabecalho .menu{
@@ -25,12 +25,12 @@ body{
 .cabecalho .menu li a{
     padding: 30px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .cabecalho .menu li a:hover{
-    color: aqua;
-    border-bottom: 3px solid aqua;
+    color: #01FFCA;
+    border-bottom: 3px solid #01FFCA;
 }
 
 .home{
@@ -40,21 +40,28 @@ body{
 }
 
 .home .img-fundo{
-    max-height: 800px;
     object-fit: cover;
+    width: 1349px;
+    height: 550px;
+    object-fit: cover;
+    object-position: -550px 0px;
 }
 
 .home .intro{
     position: absolute;
     z-index: 1;
-    max-height: calc(100vh-80px);
+    width: 1360px;
     display: flex;
+    margin: auto;
+    justify-content: center;
     flex-wrap: wrap;
+    color: #192925;
     align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    padding: 100px;
-    color: #1F1F1F;    
+    flex-direction: row; 
+}
+
+.home .intro .texto{
+    width: 500px;
 }
 
 .home .intro .texto h1{
@@ -63,7 +70,7 @@ body{
 
 .home .intro .texto span{
     font-size: 90px;
-    color: rgb(6, 92, 92);
+    color: #01726a;
 }
 
 .home .intro .texto p{
@@ -72,7 +79,7 @@ body{
 }
 
 .home .intro a img{
-    width: 650px;
+    width: 500px;
 }
 
 .sobre-mim{
@@ -117,8 +124,8 @@ body{
 .habilidades .lista-habilidades li{
     background-color: #292929;
     border-radius: 30px 30px 0 0;
-    border-bottom: 3px solid aqua;
-    color: aqua;
+    border-bottom: 3px solid #01FFCA;
+    color: #01FFCA;
     height: 250px;
     width: 250px;
     font-size: 25px;
@@ -185,7 +192,7 @@ body{
 }
 
 .projetos .lista-projetos .container a img:hover{
-    background-color: aqua ;
+    background-color: #01FFCA ;
     border-radius: 40px;
 }
 
@@ -198,7 +205,7 @@ body{
     padding: 15px;
     font-weight: 700;
     font-size: 20px;
-    background-color: aqua;
+    background-color: #01FFCA;
     color: black;
     border-radius: 40px;
 }
@@ -216,7 +223,7 @@ body{
 }
 
 .btn-repositorio-git:hover{
-    background-color: aqua;
+    background-color: #01FFCA;
     color: #1F1F1F;
 }
 
@@ -267,7 +274,7 @@ body{
 }
 
 .contatos .caixa .container .lista-contatos li:hover{
-    background-color: aqua;
+    background-color: #01FFCA;
     color: #1F1F1F;
 }
 
