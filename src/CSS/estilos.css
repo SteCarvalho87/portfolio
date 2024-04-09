@@ -23,7 +23,7 @@ body{
 }
 
 .cabecalho .menu li a{
-    padding: 30px;
+    padding: 10px;
     font-weight: 700;
     font-size: 20px;
 }
@@ -36,21 +36,19 @@ body{
 .home{
     display: flex;
     position: relative;
-    min-height: calc(100vh-80px);
 }
 
 .home .img-fundo{
-    object-fit: cover;
     width: 1349px;
-    height: 550px;
+    height: 600px;
+    object-position: -550px 0;
     object-fit: cover;
-    object-position: -550px 0px;
 }
 
 .home .intro{
     position: absolute;
     z-index: 1;
-    width: 1360px;
+    width: 1280px;
     display: flex;
     margin: auto;
     justify-content: center;
