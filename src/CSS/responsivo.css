@@ -1,14 +1,14 @@
 @media (max-width: 1024px){
+    .home .intro{
+        height: 65vh;
+    }
+
     .home .intro .texto{
         text-align: center;
     }
     
     .home .intro .texto h1{
         font-size: 35px;
-    }
-    
-    .home .intro .texto{
-        text-align: center;
     }
 
     .home .intro a img{
