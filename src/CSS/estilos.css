@@ -87,13 +87,13 @@ body{
 }
 
 .titulo{
-    font-size: 50px;    
+    font-size: 40px;    
     display: flex;
     justify-content: center;
 }
 
 .sobre-mim p{
-    font-size: 25px;
+    font-size: 22px;
     text-align: justify;
 }
 
@@ -119,8 +119,8 @@ body{
     border-radius: 30px 30px 0 0;
     border-bottom: 3px solid  rgb(64, 226, 175);
     color: rgb(64, 226, 175);
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@ body{
 }
 
 .habilidades .lista-habilidades li img{
-    max-width: 120px;
+    max-width: 80px;
 }
 
 .projetos{
@@ -149,26 +149,26 @@ body{
 
 .projetos .lista-projetos .projeto{
     background-color: #292929;
-    height: 800px;
-    width: 600px;
+    height: 390px;
+    width: 245px;
     border-radius: 30px;
 }
 
 .projetos .lista-projetos .projeto .card-projeto{
-    max-width: 600px;
+    max-width: 245px;
     opacity: .7;
     border-radius: 30px 30px 0 0;
 }    
 
 .projetos .lista-projetos .projeto h3{
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .projetos .lista-projetos .projeto p{
-    font-size: 30px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 10px;
     text-align: justify;
 }
 
@@ -176,12 +176,12 @@ body{
     display: flex;
     justify-content: space-between;
     height: 80px;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
 }
 
 .projetos .lista-projetos .container a img{
-    max-width: 45px;
+    max-width: 22px;
 }
 
 .projetos .lista-projetos .container a img:hover{
@@ -191,16 +191,16 @@ body{
 
 .projetos .lista-projetos .container .tecnologias{
     display: flex;
-    gap: 30px;
+    gap: 5px;
 }
 
 .projetos .lista-projetos .container .tecnologias li{
-    padding: 15px;
+    padding: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 12px;
     background-color:  rgb(64, 226, 175);
     color: black;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .projetos .btn-repositorio-git{
@@ -208,9 +208,9 @@ body{
     border: 0,5px solid #fff;
     border-radius: 30px;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 14px;
     text-align: center;
-    padding: 20px 40px;
+    padding: 10px 25px;
     width: 40%;
     transition: all .2s ease-in;
 }
@@ -237,14 +237,14 @@ body{
 }
 
 .contatos .caixa .container ul li img{
-    height: 70px;
+    height: 60px;
 }
 
 .contatos .caixa .container .texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 30px;
+    font-size: 22px;
     margin: 0 50px 0 0;
 }
 
@@ -259,7 +259,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1.8;
     border-radius: 10px;
     padding: 15px;
@@ -272,7 +272,7 @@ body{
 }
 
 footer{
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     height: 80px;
     justify-content: center;
