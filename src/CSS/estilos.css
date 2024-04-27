@@ -57,16 +57,16 @@ body{
 }
 
 .home .intro .texto h1{
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .home .intro .texto span{
-    font-size: 90px;
+    font-size: 70px;
     color: #ffffff;
 }
 
 .home .intro .texto p{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 

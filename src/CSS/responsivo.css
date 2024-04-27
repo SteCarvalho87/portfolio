@@ -1,7 +1,30 @@
-@media(max-width:1024){
-   
+@media (max-width: 1024px){
+    .home .intro .texto{
+        text-align: center;
+    }
+    
+    .home .intro .texto h1{
+        font-size: 35px;
+    }
+    
+    .home .intro .texto{
+        text-align: center;
+    }
+
+    .home .intro a img{
+        height: 50vh;
+    }
+      
+    .home .intro .texto span{
+        font-size: 35px;
+    }
+    
+    .home .intro .texto p{
+        font-size: 20px;
+    }
+        
 }
 
 @media(max-widht: 768px){
-
+    
 }
