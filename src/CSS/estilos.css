@@ -35,12 +35,11 @@ body{
 
 .home{
     display: flex;
-    
 }
 
 .home .intro{
     background: rgb(0,255,209);
-    background: linear-gradient(90deg, rgba(0,255,209,1) 0%, rgba(35,121,94,1) 36%, rgba(13,27,10,1) 100%);
+    background: linear-gradient(90deg, rgba(0,255,209,1) 5%, rgba(35,121,94,1) 36%, rgba(13,27,10,1) 100%);
     height: calc(100vh - 65px);
     width: 100vw;
     display: flex;
@@ -72,6 +71,8 @@ body{
 
 .home .intro a img{
     height: 70vh;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 61, 47);
 }
 
 .sobre-mim{
