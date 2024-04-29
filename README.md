@@ -9,7 +9,7 @@
 
 ## Como rodar os testes
 
-O porjeto final pode ser visualizados em: 
+O projeto final pode ser visualizados em: 
 https://stecarvalho87.github.io/portfolio/
 
 ## ⚠️ Problemas enfrentados
