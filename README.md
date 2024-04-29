@@ -20,8 +20,8 @@ Na execução do projeto tive dificuldades em editar a imagem que é muito larga
 
 ## ⏭️ Próximos passos
 
-* [] Ajustes na responsividade(verificar a possibilidade de criar uma div para dimensionar melhor a imagem de fundo)
-* [] Incluir novos projetos que fiz (é possível automatizar?)
-* [] Criar um menu sanduíche para um layout mais responsivo
-* [] Criar um formulário de contato
-* [] Criar modo escuro/claro e adicionar um botão.
+* [X] Ajustes na responsividade do main
+* [ ] Incluir novos projetos que fiz (é possível automatizar?)
+* [ ] Criar um menu sanduíche para um layout mais responsivo
+* [ ] Criar um formulário de contato
+* [ ] Criar modo escuro/claro e adicionar um botão.
