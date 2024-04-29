@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
 body{
     background-color: black;
     color: #fff;
@@ -60,6 +62,9 @@ body{
 }
 
 .home .intro .texto span{
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 70px;
     color: #ffffff;
 }
