@@ -22,6 +22,6 @@ Na execução do projeto tive dificuldades em editar a imagem que é muito larga
 
 * [X] Ajustes na responsividade do main
 * [ ] Incluir novos projetos que fiz (é possível automatizar?)
-* [ ] Criar um menu sanduíche para um layout mais responsivo
+* [X] Criar um menu sanduíche para um layout mais responsivo
 * [ ] Criar um formulário de contato
 * [ ] Criar modo escuro/claro e adicionar um botão.

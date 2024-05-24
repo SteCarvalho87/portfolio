@@ -127,6 +127,7 @@ body{
     gap: 50px;
     font-weight: 700;
     align-items: center;
+    justify-content: center;
 }
 
 .habilidades .lista-habilidades li{
@@ -152,6 +153,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .projetos .lista-projetos{
@@ -243,12 +245,14 @@ body{
     border-radius: 30px;
     padding: 20px;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
 .contatos .caixa .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .contatos .caixa .container ul li img{
@@ -257,7 +261,7 @@ body{
 
 .contatos .caixa .container .texto{
     display: flex;
-    text-align: start;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     font-size: 22px;
@@ -267,6 +271,8 @@ body{
 .contatos .caixa .container .lista-contatos{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
