@@ -8,29 +8,39 @@ body{
 }
 
 .cabecalho{
-    height: 65px;
+    /*height: 65px;*/
     padding: 0 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho img {
-    height: 130px;
+.btn-hamburguer{
+    display: none;
+    
 }
 
-.cabecalho .menu{
+.mobile-menu{
+    display: none;
+}
+
+
+.cabecalho img {
+    height: 65px;
+}
+
+.cabecalho .lista-menu{
     display: flex;
     gap: 30px;
 }
 
-.cabecalho .menu li a{
+.cabecalho .lista-menu li a{
     padding: 10px;
     font-weight: 700;
     font-size: 20px;
 }
 
-.cabecalho .menu li a:hover{
+.cabecalho .lista-menu li a:hover{
     color: rgb(64, 226, 175);
     border-bottom: 3px solid  rgb(64, 226, 175);
 }
