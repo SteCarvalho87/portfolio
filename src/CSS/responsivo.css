@@ -44,20 +44,7 @@
         display: block;
         padding-top: 1.2rem;
         font-weight: 700;
-        font-size: 20px;
-    }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .home .intro{
-        height: 65vh;
+        font-size: 16px;
     }
 
     .home .intro .texto{
@@ -65,7 +52,7 @@
     }
     
     .home .intro .texto h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .home .intro a img{
@@ -79,9 +66,27 @@
     .home .intro .texto p{
         font-size: 20px;
     }
-        
-}
 
-@media(max-widht: 768px){
-    
+    .titulo{
+        font-size: 25px;    
+    }
+    .sobre-mim p{
+        font-size: 16px;
+    }
+        
+    .habilidades .lista-habilidades li{
+        font-size: 16px;
+    }
+
+    .contatos .caixa .container .texto{
+        font-size: 16px;
+    }
+
+    .contatos .caixa .container .lista-contatos li{
+        font-size: 14px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
 }

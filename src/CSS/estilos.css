@@ -52,7 +52,6 @@ body{
 .home .intro{
     background: rgb(0,255,209);
     background: linear-gradient(90deg, rgba(0,255,209,1) 5%, rgba(35,121,94,1) 36%, rgba(13,27,10,1) 100%);
-    height: calc(100vh - 65px);
     width: 100vw;
     display: flex;
     margin: auto;
@@ -65,27 +64,28 @@ body{
 
 .home .intro .texto{
     width: 500px;
+    margin: 3rem;
 }
 
 .home .intro .texto h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .home .intro .texto span{
     font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 90px;
+    font-size: 80px;
     color: #ffffff;
 }
 
 .home .intro .texto p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .home .intro a img{
-    height: 70vh;
+    height: 60vh;
     border-radius: 50%;
     border: 3px solid rgb(18, 61, 47);
 }
