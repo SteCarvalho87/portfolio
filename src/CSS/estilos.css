@@ -192,7 +192,7 @@ body{
 .projetos .lista-projetos .container{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     padding: 10px;
     align-items: center;
 }
